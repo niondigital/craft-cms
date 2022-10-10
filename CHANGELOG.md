@@ -1058,7 +1058,7 @@
 - Added the `Craft.setPath()` JavaScript method.
 - Added the `Craft.setQueryParam()` JavaScript method.
 - Added the `Craft.setUrl()` JavaScript method.
-- Added the `Craft.ui.createButton()` JavaScript method.
+- Added the `Craft.ui.buttons()` JavaScript method.
 - Added the `Craft.ui.createSubmitButton()` JavaScript method.
 - Added the `htmx.org` JavaScript library.
 - Added the commerceguys/addressing package.

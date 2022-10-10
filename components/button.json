@@ -1,0 +1,32 @@
+{
+  "paths": [
+    {
+      "type": "twig",
+      "path": "_includes/forms/button.twig"
+    },
+    {
+      "type": "js",
+      "path": "web/assets/cp/src/js/ui/buttons.js#createButton"
+    }
+  ],
+  "arguments": {
+    "type": {
+      "scope": ["js"],
+      "default": "button",
+      "type": "string"
+    },
+    "id": {
+      "scope": ["js", "twig"],
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "html": {
+      "type": "string"
+    }
+  }
+}

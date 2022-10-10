@@ -1,3 +1,9 @@
+{#
+    @param bool $spinner Render spinner
+    @param string|null $label Button nabel
+    @param attributes $attributes HTML Attributes for the button element.
+#}
+
 {% set spinner = spinner ?? false -%}
 {% set label = label ?? null %}
 {% set attributes = {
