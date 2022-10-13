@@ -1,0 +1,32 @@
+{
+  "name": "Button",
+  "source": "_includes/forms/button.twig",
+  "variables": {
+    "spinner": false,
+    "label": "Button",
+    "type": "button",
+    "id": false,
+    "class": [],
+    "attributes": {}
+  },
+  "variants": [
+    {
+      "name": "default",
+      "variables": {}
+    },
+    {
+      "name": "Submit",
+      "variables": {
+        "type": "submit",
+        "class": "submit"
+      }
+    },
+    {
+      "name": "Spinner",
+      "variables": {
+        "spinner": true,
+        "class": "loading"
+      }
+    }
+  ]
+}

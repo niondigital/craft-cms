@@ -15,10 +15,17 @@
             padding-right: 16px;
         }
     </style>
+    {% if css %}
+        <link rel="stylesheet" href="{{ css }}">
+    {% endif %}
 </head>
 <body>
 <div class="preview-container">
-{{ preview | raw }}
+    {{ preview | raw }}
 </div>
+
+{% if js %}
+    <script src="{{ js }}"></script>
+{% endif %}
 </body>
 </html>

@@ -1,6 +1,12 @@
 <template>
   <div class="component-preview">
+    <h3>{{ name }}</h3>
     <iframe ref="iframe"></iframe>
+    <pre class="filepath">{{ component }}</pre>
+    <h4>Config</h4>
+    <pre
+      class="language-json"
+    ><code>{{ JSON.stringify(config, null, 2) }}</code></pre>
   </div>
 </template>
 
@@ -8,6 +14,9 @@
   export default {
     name: 'ComponentPreview',
     props: {
+      name: {
+        type: String,
+      },
       component: {
         type: String,
       },
@@ -45,5 +54,12 @@
   iframe {
     border: 0;
     width: 100%;
+  }
+
+  .filepath {
+    padding: 0;
+    background: transparent;
+    font-size: 12px;
+    margin: 0;
   }
 </style>

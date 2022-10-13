@@ -2,14 +2,29 @@
 
 Everyone loves a button, they're great for all sorts of things, but especially clickin'.
 
+[[toc]]
+
 ## Variants
 
-<ArgumentsTable></ArgumentsTable>
+### Default
 
-## Preview
+The standard button.
 
-How should we show each prview? And how to manage the data for each preview?
-<ComponentPreview component="_includes/forms/button" :config="{ type: 'submit', class: 'submit', label: 'Submit' }"/>
+<ComponentPreview component="_includes/forms/button"  :config="{ label: 'Button' }"/>
+
+### Submit
+
+Submit button
+
+<ComponentPreview component="_includes/forms/button"  :config="{ type: 'submit', class: 'submit', label: 'Submit' }"/>
+
+### Chromeless
+
+<ComponentPreview component="_includes/forms/button"  :config="{ class: 'chromeless', label: 'Chromeless' }"/>
+
+### Loading
+
+<ComponentPreview component="_includes/forms/button"  :config="{ class: 'loading', label: 'Loading', spinner: true }"/>
 
 ## Source
 

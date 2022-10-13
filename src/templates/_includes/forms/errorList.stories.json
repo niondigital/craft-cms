@@ -1,0 +1,17 @@
+{
+  "name": "Error list",
+  "source": "_includes/forms/errorList.twig",
+  "variables": {
+    "id": false,
+    "errors": [
+      "This is an error",
+      "An error with *some* markdown"
+    ]
+  },
+  "variants": [
+    {
+      "name": "default",
+      "variables": {}
+    }
+  ]
+}
